@@ -33,8 +33,9 @@ function show_groceries() {
     foreach ($items as $food) {
         $output .= '<ul>
                         <h3>' . 'Item : ' . $food['title'] . '</h3>
-                        <li>' . 'Price : ' . $food['price'] . '</li>
+                        <li>' . 'Price : $' . $food['price'] . '</li>
                         <li>' . 'Quantity : ' . $food['quantity'] . '</li>
+                        <li>' . 'Total : $' . $food['quantity'] * $food['price'] . '</li>
                   </ul>';
     }
     return $output;
