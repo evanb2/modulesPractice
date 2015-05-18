@@ -1,3 +1,6 @@
 [submodule "sites/all/modules/pet"]
 	path = sites/all/modules/pet
 	url = https://github.com/Virginie-T/Drupal_pet-feature.git
+[submodule "sites/all/modules/groceries"]
+	path = sites/all/modules/groceries
+	url = https://github.com/evanb2/groceriesFeature.git
