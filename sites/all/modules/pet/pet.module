@@ -2,8 +2,7 @@
 function pet_menu() {
     $items = array();
     $items['best_pet'] = array(
-        'name' => 'Fluffy',
-        'status' => 'alive',
+        'title' => 'Fluffy',
         'page callback' => 'all_pet',
         'access callback' => TRUE,
         'type' => MENU_NORMAL_ITEM,

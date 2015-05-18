@@ -1,0 +1,47 @@
+<?php
+function favorites_menu() {
+    $items = array();
+    $items['favorite_movies'] = array(
+        'title' => 'Favorite Movies',
+        'page callback' => 'show_movies',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['favorite_books'] = array(
+        'title' => 'Favorite Books',
+        'page callback' => 'show_books',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['favorite_songs'] = array(
+        'title' => 'Favorite Songs',
+        'page callback' => 'show_songs',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function show_movies() {
+    return '<ul>
+                <li>Pandorum</li>
+                <li>Snowpiercer</li>
+                <li>Die Hard 4</li>
+            </ul>';
+}
+
+function show_books() {
+    return '<ul>
+                <li>On The Road</li>
+                <li>Sometimes a Great Notion</li>
+                <li>The Catcher in The Rye</li>
+            </ul>';
+}
+
+function show_songs() {
+    return '<ul>
+                <li>Back in Black by AC/DC</li>
+                <li>Send Me An Angel by Scorpions</li>
+                <li>Team by Lorde</li>
+            </ul>';
+}
