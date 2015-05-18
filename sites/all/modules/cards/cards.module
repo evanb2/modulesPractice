@@ -1,19 +1,19 @@
 <?php
 function cards_menu() {
     $items = array();
-    $items['cards_bill'] = array(
+    $items['cards/bill'] = array(
         'title' => 'Bill',
         'page callback' => 'card_bill',
         'access callback' => TRUE,
         'type' => MENU_NORMAL_ITEM,
     );
-    $items['cards_bob'] = array(
+    $items['cards/bob'] = array(
         'title' => 'Bob',
         'page callback' => 'card_bob',
         'access callback' => TRUE,
         'type' => MENU_NORMAL_ITEM,
     );
-    $items['cards_betty'] = array(
+    $items['cards/betty'] = array(
         'title' => 'Betty',
         'page callback' => 'card_betty',
         'access callback' => TRUE,

@@ -1,3 +1,25 @@
+Epicodus Examples Module
+BY: Virginie Trubiano & Evan Butler
+Date: 5/18/15
+_________________________
+1. pet
+2. favorites
+3. groceries
+4. cards
+
+Database Login:
+    username: user
+    password: 1234
+
+Drupal Site Maintenance Account:
+    username: admin
+    password: 1234
+
+Description: A couple different modules for Drupal, see .info files for descriptions.
+
+
+
+
 
 CONTENTS OF THIS FILE
 ---------------------
