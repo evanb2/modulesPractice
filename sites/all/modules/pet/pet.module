@@ -12,7 +12,5 @@ function pet_menu() {
 
 }
 function all_pet() {
-    return '<p>
-        Here are my favorite pets !
-    </p>';
+    return '<a href="https://www.youtube.com/watch?v=u5ylz0c2QB4"><img src="sites/all/img/cats_attack.jpg" alt="cats attack" /></a>';
 }
