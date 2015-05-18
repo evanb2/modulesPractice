@@ -1,0 +1,18 @@
+<?php
+function pet_menu() {
+    $items = array();
+    $items['best_pet'] = array(
+        'name' => 'Fluffy',
+        'status' => 'alive',
+        'page callback' => 'all_pet',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+
+}
+function all_pet() {
+    return '<p>
+        Here are my favorite pets !
+    </p>';
+}
