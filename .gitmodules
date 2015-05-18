@@ -1,0 +1,3 @@
+[submodule "sites/all/modules/pet"]
+	path = sites/all/modules/pet
+	url = https://github.com/Virginie-T/Drupal_pet-feature.git
