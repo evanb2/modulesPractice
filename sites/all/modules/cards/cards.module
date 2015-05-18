@@ -1,0 +1,35 @@
+<?php
+function cards_menu() {
+    $items = array();
+    $items['cards_bill'] = array(
+        'title' => 'Bill',
+        'page callback' => 'card_bill',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['cards_bob'] = array(
+        'title' => 'Bob',
+        'page callback' => 'card_bob',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    $items['cards_betty'] = array(
+        'title' => 'Betty',
+        'page callback' => 'card_betty',
+        'access callback' => TRUE,
+        'type' => MENU_NORMAL_ITEM,
+    );
+    return $items;
+}
+
+function card_bill() {
+    return '<p>Happy Birthday Bill!</p>';
+}
+
+function card_bob() {
+    return '<p>Happy Anniversary Bob!</p>';
+}
+
+function card_betty() {
+    return '<p>Congrats on the baby boy Betty! You did it!</p>';
+}
