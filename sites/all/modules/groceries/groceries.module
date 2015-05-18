@@ -36,7 +36,7 @@ function show_groceries() {
                         <li>' . 'Price : $' . $food['price'] . '</li>
                         <li>' . 'Quantity : ' . $food['quantity'] . '</li>
                         <li>' . 'Total : $' . $food['quantity'] * $food['price'] . '</li>
-                  </ul>';
+                   </ul>';
     }
     return $output;
 }
