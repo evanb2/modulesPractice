@@ -1,0 +1,70 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/responsive.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+h1 {
+    font-weight: 400;
+}
+
+.header__logo-image {
+    opacity: 0;
+    margin-top: 5px;
+    height: 300px;
+    width: 300px;
+}
+
+/*#site-name {
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}*/
+
+#name-and-slogan {
+    font-family: Times;
+    float: right;
+    margin-right: 50px;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#logo {
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/d/d2/Siberian_Husky_with_Blue_Eyes.jpg');
+    background-size: 300px 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    color: #5C8533;
+    text-decoration: none;
+    font-family: "Courier New";
+}
+
+a:hover {
+    color: black;
+}
+
+.menu__item.is-leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
